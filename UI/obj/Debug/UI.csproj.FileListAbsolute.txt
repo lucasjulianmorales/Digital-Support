@@ -1,0 +1,16 @@
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\obj\Debug\UI.frmCliente.resources
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\obj\Debug\UI.frmCotizacion.resources
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\obj\Debug\UI.frmTecnico.resources
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\obj\Debug\UI.Properties.Resources.resources
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\obj\Debug\UI.csproj.GenerateResource.Cache
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\bin\Debug\UI.exe.config
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\bin\Debug\UI.exe
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\bin\Debug\UI.pdb
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\bin\Debug\BLL.dll
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\bin\Debug\ENTITY.dll
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\bin\Debug\BLL.pdb
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\bin\Debug\ENTITY.pdb
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\obj\Debug\UI.exe
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\UI\obj\Debug\UI.pdb

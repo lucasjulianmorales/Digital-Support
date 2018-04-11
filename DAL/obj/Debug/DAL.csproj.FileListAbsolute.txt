@@ -1,0 +1,8 @@
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\DAL\bin\Debug\DAL.dll
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\DAL\bin\Debug\DAL.pdb
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\DAL\bin\Debug\ENTITY.dll
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\DAL\bin\Debug\ENTITY.pdb
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\DAL\obj\Debug\DAL.dll
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\DAL\obj\Debug\DAL.pdb

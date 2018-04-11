@@ -1,0 +1,6 @@
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\ENTITY\bin\Debug\ENTITY.dll
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\ENTITY\bin\Debug\ENTITY.pdb
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\ENTITY\obj\Debug\ENTITY.dll
+E:\UAI 2017\Práctica Profesional 2017\Digital Support\3capas\Digital Support\ENTITY\obj\Debug\ENTITY.pdb
