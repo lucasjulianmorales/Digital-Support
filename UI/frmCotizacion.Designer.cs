@@ -39,12 +39,13 @@
             this.cOTIZACIONTableAdapter = new UI.Digita_SupportDataSetTableAdapters.COTIZACIONTableAdapter();
             this.btnCotizar = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbMonto = new System.Windows.Forms.Label();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.btnAddMateriales = new System.Windows.Forms.Button();
             this.btnAddServicios = new System.Windows.Forms.Button();
             this.btnSendCotizacion = new System.Windows.Forms.Button();
-            this.txbDescNecesidad = new System.Windows.Forms.TextBox();
+            this.lbDesc = new System.Windows.Forms.Label();
+            this.txbDesc = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCotizacionEmp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cOTIZACIONBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.digita_SupportDataSet)).BeginInit();
@@ -120,15 +121,15 @@
             this.textBox1.Size = new System.Drawing.Size(105, 20);
             this.textBox1.TabIndex = 35;
             // 
-            // label1
+            // lbMonto
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(665, 341);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 15);
-            this.label1.TabIndex = 36;
-            this.label1.Text = "Monto:";
+            this.lbMonto.AutoSize = true;
+            this.lbMonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMonto.Location = new System.Drawing.Point(665, 341);
+            this.lbMonto.Name = "lbMonto";
+            this.lbMonto.Size = new System.Drawing.Size(51, 15);
+            this.lbMonto.TabIndex = 36;
+            this.lbMonto.Text = "Monto:";
             // 
             // btnAddMateriales
             // 
@@ -157,29 +158,40 @@
             this.btnSendCotizacion.Text = "Enviar Cotizacion";
             this.btnSendCotizacion.UseVisualStyleBackColor = true;
             // 
-            // txbDescNecesidad
+            // lbDesc
             // 
-            this.txbDescNecesidad.Location = new System.Drawing.Point(12, 292);
-            this.txbDescNecesidad.Multiline = true;
-            this.txbDescNecesidad.Name = "txbDescNecesidad";
-            this.txbDescNecesidad.Size = new System.Drawing.Size(347, 119);
-            this.txbDescNecesidad.TabIndex = 45;
+            this.lbDesc.AutoSize = true;
+            this.lbDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDesc.Location = new System.Drawing.Point(12, 251);
+            this.lbDesc.Name = "lbDesc";
+            this.lbDesc.Size = new System.Drawing.Size(87, 15);
+            this.lbDesc.TabIndex = 50;
+            this.lbDesc.Text = "Descripción:";
+            // 
+            // txbDesc
+            // 
+            this.txbDesc.Location = new System.Drawing.Point(12, 278);
+            this.txbDesc.Multiline = true;
+            this.txbDesc.Name = "txbDesc";
+            this.txbDesc.Size = new System.Drawing.Size(389, 117);
+            this.txbDesc.TabIndex = 49;
             // 
             // frmCotizacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(862, 423);
-            this.Controls.Add(this.txbDescNecesidad);
+            this.Controls.Add(this.lbDesc);
+            this.Controls.Add(this.txbDesc);
             this.Controls.Add(this.btnSendCotizacion);
             this.Controls.Add(this.btnAddServicios);
             this.Controls.Add(this.btnAddMateriales);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbMonto);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnCotizar);
             this.Controls.Add(this.dgvCotizacionEmp);
             this.Name = "frmCotizacion";
-            this.Text = "Cotizacion - Digital Support";
+            this.Text = "Cotización - Digital Support";
             this.Load += new System.EventHandler(this.frmCotizacion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCotizacionEmp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cOTIZACIONBindingSource)).EndInit();
@@ -202,11 +214,12 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn creadaporDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button btnCotizar;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbMonto;
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.Button btnAddMateriales;
         private System.Windows.Forms.Button btnAddServicios;
         private System.Windows.Forms.Button btnSendCotizacion;
-        private System.Windows.Forms.TextBox txbDescNecesidad;
+        private System.Windows.Forms.Label lbDesc;
+        private System.Windows.Forms.TextBox txbDesc;
     }
 }

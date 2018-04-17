@@ -30,15 +30,15 @@
         {
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnAddServicios = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbAsignados = new System.Windows.Forms.Label();
             this.btnPasarTodoDer = new System.Windows.Forms.Button();
             this.btnPasarTodoIzq = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbServicios = new System.Windows.Forms.Label();
             this.btnPasarIzq = new System.Windows.Forms.Button();
             this.btnPasarDer = new System.Windows.Forms.Button();
             this.lstServiciosPrestados = new System.Windows.Forms.ListBox();
             this.lstServicios = new System.Windows.Forms.ListBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbCantidad = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -60,15 +60,15 @@
             this.btnAddServicios.Text = "Agregar Servicios";
             this.btnAddServicios.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // lbAsignados
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(305, 23);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 15);
-            this.label2.TabIndex = 41;
-            this.label2.Text = "Asignados";
+            this.lbAsignados.AutoSize = true;
+            this.lbAsignados.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAsignados.Location = new System.Drawing.Point(305, 23);
+            this.lbAsignados.Name = "lbAsignados";
+            this.lbAsignados.Size = new System.Drawing.Size(73, 15);
+            this.lbAsignados.TabIndex = 41;
+            this.lbAsignados.Text = "Asignados";
             // 
             // btnPasarTodoDer
             // 
@@ -88,15 +88,15 @@
             this.btnPasarTodoIzq.Text = "<<<";
             this.btnPasarTodoIzq.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // lbServicios
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 15);
-            this.label1.TabIndex = 38;
-            this.label1.Text = "Servicios";
+            this.lbServicios.AutoSize = true;
+            this.lbServicios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbServicios.Location = new System.Drawing.Point(12, 23);
+            this.lbServicios.Name = "lbServicios";
+            this.lbServicios.Size = new System.Drawing.Size(65, 15);
+            this.lbServicios.TabIndex = 38;
+            this.lbServicios.Text = "Servicios";
             // 
             // btnPasarIzq
             // 
@@ -132,15 +132,15 @@
             this.lstServicios.Size = new System.Drawing.Size(175, 290);
             this.lstServicios.TabIndex = 34;
             // 
-            // label3
+            // lbCantidad
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 388);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 15);
-            this.label3.TabIndex = 44;
-            this.label3.Text = "Cantidad:";
+            this.lbCantidad.AutoSize = true;
+            this.lbCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCantidad.Location = new System.Drawing.Point(12, 388);
+            this.lbCantidad.Name = "lbCantidad";
+            this.lbCantidad.Size = new System.Drawing.Size(68, 15);
+            this.lbCantidad.TabIndex = 44;
+            this.lbCantidad.Text = "Cantidad:";
             // 
             // textBox1
             // 
@@ -155,13 +155,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(500, 423);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lbCantidad);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnAddServicios);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbAsignados);
             this.Controls.Add(this.btnPasarTodoDer);
             this.Controls.Add(this.btnPasarTodoIzq);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbServicios);
             this.Controls.Add(this.btnPasarIzq);
             this.Controls.Add(this.btnPasarDer);
             this.Controls.Add(this.lstServiciosPrestados);
@@ -178,15 +178,15 @@
 
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnAddServicios;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbAsignados;
         private System.Windows.Forms.Button btnPasarTodoDer;
         private System.Windows.Forms.Button btnPasarTodoIzq;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbServicios;
         private System.Windows.Forms.Button btnPasarIzq;
         private System.Windows.Forms.Button btnPasarDer;
         private System.Windows.Forms.ListBox lstServiciosPrestados;
         private System.Windows.Forms.ListBox lstServicios;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbCantidad;
         private System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -31,8 +31,8 @@
             this.btnLogIn = new System.Windows.Forms.Button();
             this.txbUser = new System.Windows.Forms.TextBox();
             this.txbPass = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbUsuario = new System.Windows.Forms.Label();
+            this.lbContraseña = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnLogIn
@@ -58,33 +58,33 @@
             this.txbPass.Size = new System.Drawing.Size(260, 20);
             this.txbPass.TabIndex = 2;
             // 
-            // label1
+            // lbUsuario
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(9, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 15);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Usuario:";
+            this.lbUsuario.AutoSize = true;
+            this.lbUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUsuario.Location = new System.Drawing.Point(9, 35);
+            this.lbUsuario.Name = "lbUsuario";
+            this.lbUsuario.Size = new System.Drawing.Size(61, 15);
+            this.lbUsuario.TabIndex = 3;
+            this.lbUsuario.Text = "Usuario:";
             // 
-            // label2
+            // lbContraseña
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(9, 122);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 15);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Contraseña:";
+            this.lbContraseña.AutoSize = true;
+            this.lbContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbContraseña.Location = new System.Drawing.Point(9, 122);
+            this.lbContraseña.Name = "lbContraseña";
+            this.lbContraseña.Size = new System.Drawing.Size(84, 15);
+            this.lbContraseña.TabIndex = 4;
+            this.lbContraseña.Text = "Contraseña:";
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(519, 283);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbContraseña);
+            this.Controls.Add(this.lbUsuario);
             this.Controls.Add(this.txbPass);
             this.Controls.Add(this.txbUser);
             this.Controls.Add(this.btnLogIn);
@@ -101,7 +101,7 @@
         private System.Windows.Forms.Button btnLogIn;
         private System.Windows.Forms.TextBox txbUser;
         private System.Windows.Forms.TextBox txbPass;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbUsuario;
+        private System.Windows.Forms.Label lbContraseña;
     }
 }

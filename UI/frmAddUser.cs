@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace UI
 {
-    public partial class frmEmpleado : Form
+    public partial class frmAddUser : Form
     {
-        public frmEmpleado()
+        public frmAddUser()
         {
             InitializeComponent();
-        }
-
-        private void frmTecnico_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

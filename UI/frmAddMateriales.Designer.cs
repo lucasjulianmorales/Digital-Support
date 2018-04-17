@@ -30,8 +30,8 @@
         {
             this.lstMaterialesUtilizados = new System.Windows.Forms.ListBox();
             this.lstMateriales = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbMateriales = new System.Windows.Forms.Label();
+            this.lbUtilizados = new System.Windows.Forms.Label();
             this.btnAddMateriales = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnPasarTodoDer = new System.Windows.Forms.Button();
@@ -39,7 +39,7 @@
             this.btnPasarIzq = new System.Windows.Forms.Button();
             this.btnPasarDer = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbCantidad = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lstMaterialesUtilizados
@@ -58,25 +58,25 @@
             this.lstMateriales.Size = new System.Drawing.Size(175, 290);
             this.lstMateriales.TabIndex = 12;
             // 
-            // label1
+            // lbMateriales
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 15);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Materiales:";
+            this.lbMateriales.AutoSize = true;
+            this.lbMateriales.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMateriales.Location = new System.Drawing.Point(12, 25);
+            this.lbMateriales.Name = "lbMateriales";
+            this.lbMateriales.Size = new System.Drawing.Size(79, 15);
+            this.lbMateriales.TabIndex = 18;
+            this.lbMateriales.Text = "Materiales:";
             // 
-            // label2
+            // lbUtilizados
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(305, 25);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 15);
-            this.label2.TabIndex = 21;
-            this.label2.Text = "Utilizados:";
+            this.lbUtilizados.AutoSize = true;
+            this.lbUtilizados.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUtilizados.Location = new System.Drawing.Point(306, 25);
+            this.lbUtilizados.Name = "lbUtilizados";
+            this.lbUtilizados.Size = new System.Drawing.Size(75, 15);
+            this.lbUtilizados.TabIndex = 21;
+            this.lbUtilizados.Text = "Utilizados:";
             // 
             // btnAddMateriales
             // 
@@ -139,15 +139,15 @@
             this.textBox1.Size = new System.Drawing.Size(73, 20);
             this.textBox1.TabIndex = 47;
             // 
-            // label3
+            // lbCantidad
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 388);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 15);
-            this.label3.TabIndex = 46;
-            this.label3.Text = "Cantidad:";
+            this.lbCantidad.AutoSize = true;
+            this.lbCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCantidad.Location = new System.Drawing.Point(12, 388);
+            this.lbCantidad.Name = "lbCantidad";
+            this.lbCantidad.Size = new System.Drawing.Size(68, 15);
+            this.lbCantidad.TabIndex = 46;
+            this.lbCantidad.Text = "Cantidad:";
             // 
             // frmAddMateriales
             // 
@@ -155,15 +155,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(500, 423);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lbCantidad);
             this.Controls.Add(this.btnPasarTodoDer);
             this.Controls.Add(this.btnPasarTodoIzq);
             this.Controls.Add(this.btnPasarIzq);
             this.Controls.Add(this.btnPasarDer);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnAddMateriales);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbUtilizados);
+            this.Controls.Add(this.lbMateriales);
             this.Controls.Add(this.lstMaterialesUtilizados);
             this.Controls.Add(this.lstMateriales);
             this.Name = "frmAddMateriales";
@@ -176,8 +176,8 @@
         #endregion
         private System.Windows.Forms.ListBox lstMaterialesUtilizados;
         private System.Windows.Forms.ListBox lstMateriales;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbMateriales;
+        private System.Windows.Forms.Label lbUtilizados;
         private System.Windows.Forms.Button btnAddMateriales;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnPasarTodoDer;
@@ -185,6 +185,6 @@
         private System.Windows.Forms.Button btnPasarIzq;
         private System.Windows.Forms.Button btnPasarDer;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbCantidad;
     }
 }

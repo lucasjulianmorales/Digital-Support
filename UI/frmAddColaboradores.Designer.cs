@@ -30,10 +30,10 @@
         {
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnAddColaboradores = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbAsignados = new System.Windows.Forms.Label();
             this.btnPasarTodoDer = new System.Windows.Forms.Button();
             this.btnPasarTodoIzq = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbTecnicos = new System.Windows.Forms.Label();
             this.btnPasarIzq = new System.Windows.Forms.Button();
             this.btnPasarDer = new System.Windows.Forms.Button();
             this.lstColaboradores = new System.Windows.Forms.ListBox();
@@ -55,18 +55,18 @@
             this.btnAddColaboradores.Name = "btnAddColaboradores";
             this.btnAddColaboradores.Size = new System.Drawing.Size(75, 53);
             this.btnAddColaboradores.TabIndex = 32;
-            this.btnAddColaboradores.Text = "Asignar Orden de Trabajo";
+            this.btnAddColaboradores.Text = "Asignar a OT";
             this.btnAddColaboradores.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // lbAsignados
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(305, 23);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 15);
-            this.label2.TabIndex = 31;
-            this.label2.Text = "Asignados";
+            this.lbAsignados.AutoSize = true;
+            this.lbAsignados.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAsignados.Location = new System.Drawing.Point(305, 23);
+            this.lbAsignados.Name = "lbAsignados";
+            this.lbAsignados.Size = new System.Drawing.Size(73, 15);
+            this.lbAsignados.TabIndex = 31;
+            this.lbAsignados.Text = "Asignados";
             // 
             // btnPasarTodoDer
             // 
@@ -86,15 +86,15 @@
             this.btnPasarTodoIzq.Text = "<<<";
             this.btnPasarTodoIzq.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // lbTecnicos
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 15);
-            this.label1.TabIndex = 28;
-            this.label1.Text = "Tecnicos:";
+            this.lbTecnicos.AutoSize = true;
+            this.lbTecnicos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTecnicos.Location = new System.Drawing.Point(12, 23);
+            this.lbTecnicos.Name = "lbTecnicos";
+            this.lbTecnicos.Size = new System.Drawing.Size(68, 15);
+            this.lbTecnicos.TabIndex = 28;
+            this.lbTecnicos.Text = "Tecnicos:";
             // 
             // btnPasarIzq
             // 
@@ -137,10 +137,10 @@
             this.ClientSize = new System.Drawing.Size(500, 423);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnAddColaboradores);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbAsignados);
             this.Controls.Add(this.btnPasarTodoDer);
             this.Controls.Add(this.btnPasarTodoIzq);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbTecnicos);
             this.Controls.Add(this.btnPasarIzq);
             this.Controls.Add(this.btnPasarDer);
             this.Controls.Add(this.lstColaboradores);
@@ -157,10 +157,10 @@
 
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnAddColaboradores;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbAsignados;
         private System.Windows.Forms.Button btnPasarTodoDer;
         private System.Windows.Forms.Button btnPasarTodoIzq;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbTecnicos;
         private System.Windows.Forms.Button btnPasarIzq;
         private System.Windows.Forms.Button btnPasarDer;
         private System.Windows.Forms.ListBox lstColaboradores;

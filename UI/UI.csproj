@@ -78,17 +78,17 @@
     <Compile Include="frmAddMateriales.Designer.cs">
       <DependentUpon>frmAddMateriales.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUser.Designer.cs">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCotizacion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCotizacion.Designer.cs">
       <DependentUpon>frmCotizacion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmCotizacionCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCotizacionCliente.Designer.cs">
-      <DependentUpon>frmCotizacionCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="frmAddServicios.cs">
       <SubType>Form</SubType>
@@ -96,17 +96,11 @@
     <Compile Include="frmAddServicios.Designer.cs">
       <DependentUpon>frmAddServicios.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmEmpleado.cs">
+    <Compile Include="frmOrdenTrabajo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEmpleado.Designer.cs">
-      <DependentUpon>frmEmpleado.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCliente.Designer.cs">
-      <DependentUpon>frmCliente.cs</DependentUpon>
+    <Compile Include="frmOrdenTrabajo.Designer.cs">
+      <DependentUpon>frmOrdenTrabajo.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
@@ -122,20 +116,17 @@
     <EmbeddedResource Include="frmAddMateriales.resx">
       <DependentUpon>frmAddMateriales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCliente.resx">
-      <DependentUpon>frmCliente.cs</DependentUpon>
+    <EmbeddedResource Include="frmAddUser.resx">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCotizacion.resx">
       <DependentUpon>frmCotizacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCotizacionCliente.resx">
-      <DependentUpon>frmCotizacionCliente.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmAddServicios.resx">
       <DependentUpon>frmAddServicios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmEmpleado.resx">
-      <DependentUpon>frmEmpleado.cs</DependentUpon>
+    <EmbeddedResource Include="frmOrdenTrabajo.resx">
+      <DependentUpon>frmOrdenTrabajo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>

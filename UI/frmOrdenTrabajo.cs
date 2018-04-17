@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace UI
 {
-    public partial class frmCotizacionCliente : Form
+    public partial class frmOrdenTrabajo : Form
     {
-        public frmCotizacionCliente()
+        public frmOrdenTrabajo()
         {
             InitializeComponent();
         }
 
-        private void frmCotizacion_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void frmTecnico_Load(object sender, EventArgs e)
         {
 
         }
