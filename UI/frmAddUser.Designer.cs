@@ -28,11 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSendCotizacion = new System.Windows.Forms.Button();
-            this.btnAddServicios = new System.Windows.Forms.Button();
-            this.btnAddMateriales = new System.Windows.Forms.Button();
+            this.btnUpdateUser = new System.Windows.Forms.Button();
+            this.btnDeleteUser = new System.Windows.Forms.Button();
             this.txbNombre = new System.Windows.Forms.TextBox();
-            this.btnCotizar = new System.Windows.Forms.Button();
+            this.btnAddUser = new System.Windows.Forms.Button();
             this.lblNombre = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -54,32 +53,23 @@
             this.lbCP = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnSendCotizacion
+            // btnUpdateUser
             // 
-            this.btnSendCotizacion.Location = new System.Drawing.Point(335, 382);
-            this.btnSendCotizacion.Name = "btnSendCotizacion";
-            this.btnSendCotizacion.Size = new System.Drawing.Size(75, 53);
-            this.btnSendCotizacion.TabIndex = 49;
-            this.btnSendCotizacion.Text = "Enviar Cotizacion";
-            this.btnSendCotizacion.UseVisualStyleBackColor = true;
+            this.btnUpdateUser.Location = new System.Drawing.Point(335, 382);
+            this.btnUpdateUser.Name = "btnUpdateUser";
+            this.btnUpdateUser.Size = new System.Drawing.Size(75, 53);
+            this.btnUpdateUser.TabIndex = 49;
+            this.btnUpdateUser.Text = "Modificar Usuario";
+            this.btnUpdateUser.UseVisualStyleBackColor = true;
             // 
-            // btnAddServicios
+            // btnDeleteUser
             // 
-            this.btnAddServicios.Location = new System.Drawing.Point(548, 382);
-            this.btnAddServicios.Name = "btnAddServicios";
-            this.btnAddServicios.Size = new System.Drawing.Size(75, 53);
-            this.btnAddServicios.TabIndex = 48;
-            this.btnAddServicios.Text = "Consultar Usuario";
-            this.btnAddServicios.UseVisualStyleBackColor = true;
-            // 
-            // btnAddMateriales
-            // 
-            this.btnAddMateriales.Location = new System.Drawing.Point(446, 382);
-            this.btnAddMateriales.Name = "btnAddMateriales";
-            this.btnAddMateriales.Size = new System.Drawing.Size(75, 53);
-            this.btnAddMateriales.TabIndex = 47;
-            this.btnAddMateriales.Text = "Agregar Materiales";
-            this.btnAddMateriales.UseVisualStyleBackColor = true;
+            this.btnDeleteUser.Location = new System.Drawing.Point(548, 382);
+            this.btnDeleteUser.Name = "btnDeleteUser";
+            this.btnDeleteUser.Size = new System.Drawing.Size(75, 53);
+            this.btnDeleteUser.TabIndex = 48;
+            this.btnDeleteUser.Text = "Eliminar Usuario";
+            this.btnDeleteUser.UseVisualStyleBackColor = true;
             // 
             // txbNombre
             // 
@@ -88,14 +78,14 @@
             this.txbNombre.Size = new System.Drawing.Size(193, 20);
             this.txbNombre.TabIndex = 46;
             // 
-            // btnCotizar
+            // btnAddUser
             // 
-            this.btnCotizar.Location = new System.Drawing.Point(372, 130);
-            this.btnCotizar.Name = "btnCotizar";
-            this.btnCotizar.Size = new System.Drawing.Size(75, 53);
-            this.btnCotizar.TabIndex = 45;
-            this.btnCotizar.Text = "Agregar Usuario";
-            this.btnCotizar.UseVisualStyleBackColor = true;
+            this.btnAddUser.Location = new System.Drawing.Point(446, 382);
+            this.btnAddUser.Name = "btnAddUser";
+            this.btnAddUser.Size = new System.Drawing.Size(75, 53);
+            this.btnAddUser.TabIndex = 45;
+            this.btnAddUser.Text = "Agregar Usuario";
+            this.btnAddUser.UseVisualStyleBackColor = true;
             // 
             // lblNombre
             // 
@@ -285,11 +275,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblNombre);
-            this.Controls.Add(this.btnSendCotizacion);
-            this.Controls.Add(this.btnAddServicios);
-            this.Controls.Add(this.btnAddMateriales);
+            this.Controls.Add(this.btnUpdateUser);
+            this.Controls.Add(this.btnDeleteUser);
             this.Controls.Add(this.txbNombre);
-            this.Controls.Add(this.btnCotizar);
+            this.Controls.Add(this.btnAddUser);
             this.Name = "frmAddUser";
             this.Text = "frmAddUser";
             this.ResumeLayout(false);
@@ -299,11 +288,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnSendCotizacion;
-        private System.Windows.Forms.Button btnAddServicios;
-        private System.Windows.Forms.Button btnAddMateriales;
+        private System.Windows.Forms.Button btnUpdateUser;
+        private System.Windows.Forms.Button btnDeleteUser;
         private System.Windows.Forms.TextBox txbNombre;
-        private System.Windows.Forms.Button btnCotizar;
+        private System.Windows.Forms.Button btnAddUser;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

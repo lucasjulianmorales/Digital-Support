@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    class Orden_Trabajo
+    class Orden_Trabajo_DAL
     {
         public string ID_ot { get; set; }
         public string Asunto { get; set; }

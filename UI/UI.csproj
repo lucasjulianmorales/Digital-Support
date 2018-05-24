@@ -108,6 +108,12 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="ftmConsultUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ftmConsultUser.Designer.cs">
+      <DependentUpon>ftmConsultUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAddColaboradores.resx">
@@ -130,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ftmConsultUser.resx">
+      <DependentUpon>ftmConsultUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -43,6 +43,7 @@
             this.btnLogIn.TabIndex = 0;
             this.btnLogIn.Text = "Ingresar";
             this.btnLogIn.UseVisualStyleBackColor = true;
+            this.btnLogIn.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
             // txbUser
             // 
@@ -82,7 +83,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(519, 283);
+            this.ClientSize = new System.Drawing.Size(519, 282);
             this.Controls.Add(this.lbContraseña);
             this.Controls.Add(this.lbUsuario);
             this.Controls.Add(this.txbPass);

@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    public class Class1
+    static class Usuario_BLL
     {
+        public String AddUser()
+        {
+            return;
+        }
+
+
     }
 }

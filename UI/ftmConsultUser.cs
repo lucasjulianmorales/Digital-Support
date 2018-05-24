@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace UI
 {
-    public partial class frmLogin : Form
+    public partial class ftmConsultUser : Form
     {
-        public frmLogin()
+        public ftmConsultUser()
         {
             InitializeComponent();
-        }
-
-        private void btnLogIn_Click(object sender, EventArgs e)
-        {
-
-
         }
     }
 }

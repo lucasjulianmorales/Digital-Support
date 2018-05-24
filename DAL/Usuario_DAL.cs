@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class Usuario
+    public class Usuario_DAL
     {
         public int ID_usuario { get; set; }
         public string Nombre { get; set; }
@@ -20,6 +20,7 @@ namespace DAL
         public string Razon_social { get; set; }
 
     }
+
     
 
     
