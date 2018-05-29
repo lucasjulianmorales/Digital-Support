@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace UI
 {
-    public partial class frmOrdenTrabajo : Form
+    public partial class frmConsultUser : Form
     {
-        public frmOrdenTrabajo()
+        public frmConsultUser()
         {
             InitializeComponent();
-        }
-
-        private void frmTecnico_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void aBMServiciosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UI
 {
-    public partial class ftmConsultUser : Form
+    public partial class frmUsuario : Form
     {
-        public ftmConsultUser()
+        public frmUsuario()
         {
             InitializeComponent();
         }

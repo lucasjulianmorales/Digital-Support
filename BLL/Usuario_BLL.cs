@@ -3,14 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ENTITY;
+using DAL;
 
 namespace BLL
 {
-    static class Usuario_BLL
+    public static class Usuario_BLL
     {
-        public String AddUser()
+        static public void  AddUser()
         {
-            return;
+           
+        }
+        static public Usuario LogIn( Usuario user)
+        {
+
+            Usuario_DAL.UserCredentials(user);
+            
+            return user;
         }
 
 

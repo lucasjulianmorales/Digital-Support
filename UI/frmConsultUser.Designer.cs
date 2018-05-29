@@ -1,6 +1,6 @@
 ﻿namespace UI
 {
-    partial class ftmConsultUser
+    partial class frmConsultUser
     {
         /// <summary>
         /// Required designer variable.
