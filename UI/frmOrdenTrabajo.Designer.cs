@@ -36,16 +36,17 @@
             this.lbDesc = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cambiarContraseñaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ordenDeTrabajoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cotizacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.serviciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMServiciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMMaterialesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cotizacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cambiarContraseñaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnNewOT = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -66,6 +67,7 @@
             this.btnAddServicios.TabIndex = 45;
             this.btnAddServicios.Text = "Agregar Servicios";
             this.btnAddServicios.UseVisualStyleBackColor = true;
+            this.btnAddServicios.Click += new System.EventHandler(this.btnAddServicios_Click);
             // 
             // btnAddMateriales
             // 
@@ -75,6 +77,7 @@
             this.btnAddMateriales.TabIndex = 44;
             this.btnAddMateriales.Text = "Agregar Materiales";
             this.btnAddMateriales.UseVisualStyleBackColor = true;
+            this.btnAddMateriales.Click += new System.EventHandler(this.btnAddMateriales_Click);
             // 
             // btnFinalizarOT
             // 
@@ -84,6 +87,7 @@
             this.btnFinalizarOT.TabIndex = 46;
             this.btnFinalizarOT.Text = "Finalizar OT";
             this.btnFinalizarOT.UseVisualStyleBackColor = true;
+            this.btnFinalizarOT.Click += new System.EventHandler(this.btnFinalizarOT_Click);
             // 
             // txbDesc
             // 
@@ -125,6 +129,18 @@
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.menuToolStripMenuItem.Text = "Menu";
             // 
+            // cambiarContraseñaToolStripMenuItem
+            // 
+            this.cambiarContraseñaToolStripMenuItem.Name = "cambiarContraseñaToolStripMenuItem";
+            this.cambiarContraseñaToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.cambiarContraseñaToolStripMenuItem.Text = "Cambiar Contraseña";
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            // 
             // usuarioToolStripMenuItem
             // 
             this.usuarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -139,12 +155,14 @@
             this.buscarToolStripMenuItem.Name = "buscarToolStripMenuItem";
             this.buscarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.buscarToolStripMenuItem.Text = "Consultar";
+            this.buscarToolStripMenuItem.Click += new System.EventHandler(this.buscarToolStripMenuItem_Click);
             // 
             // agregarToolStripMenuItem
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
             this.agregarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.agregarToolStripMenuItem.Text = "Agregar";
+            this.agregarToolStripMenuItem.Text = "ABM Usuario";
+            this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
             // 
             // ordenDeTrabajoToolStripMenuItem
             // 
@@ -153,6 +171,13 @@
             this.ordenDeTrabajoToolStripMenuItem.Name = "ordenDeTrabajoToolStripMenuItem";
             this.ordenDeTrabajoToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.ordenDeTrabajoToolStripMenuItem.Text = "Cotizacion";
+            // 
+            // cotizacionToolStripMenuItem
+            // 
+            this.cotizacionToolStripMenuItem.Name = "cotizacionToolStripMenuItem";
+            this.cotizacionToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.cotizacionToolStripMenuItem.Text = "Cotizacion";
+            this.cotizacionToolStripMenuItem.Click += new System.EventHandler(this.cotizacionToolStripMenuItem_Click);
             // 
             // serviciosToolStripMenuItem
             // 
@@ -166,39 +191,32 @@
             // aBMServiciosToolStripMenuItem
             // 
             this.aBMServiciosToolStripMenuItem.Name = "aBMServiciosToolStripMenuItem";
-            this.aBMServiciosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aBMServiciosToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.aBMServiciosToolStripMenuItem.Text = "ABM Servicios";
             this.aBMServiciosToolStripMenuItem.Click += new System.EventHandler(this.aBMServiciosToolStripMenuItem_Click);
             // 
             // aBMMaterialesToolStripMenuItem
             // 
             this.aBMMaterialesToolStripMenuItem.Name = "aBMMaterialesToolStripMenuItem";
-            this.aBMMaterialesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aBMMaterialesToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.aBMMaterialesToolStripMenuItem.Text = "ABM  Materiales";
+            this.aBMMaterialesToolStripMenuItem.Click += new System.EventHandler(this.aBMMaterialesToolStripMenuItem_Click);
             // 
-            // cotizacionToolStripMenuItem
+            // btnNewOT
             // 
-            this.cotizacionToolStripMenuItem.Name = "cotizacionToolStripMenuItem";
-            this.cotizacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cotizacionToolStripMenuItem.Text = "Cotizacion";
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
-            // 
-            // cambiarContraseñaToolStripMenuItem
-            // 
-            this.cambiarContraseñaToolStripMenuItem.Name = "cambiarContraseñaToolStripMenuItem";
-            this.cambiarContraseñaToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.cambiarContraseñaToolStripMenuItem.Text = "Cambiar Contraseña";
+            this.btnNewOT.Location = new System.Drawing.Point(765, 358);
+            this.btnNewOT.Name = "btnNewOT";
+            this.btnNewOT.Size = new System.Drawing.Size(75, 53);
+            this.btnNewOT.TabIndex = 50;
+            this.btnNewOT.Text = "Nueva OT";
+            this.btnNewOT.UseVisualStyleBackColor = true;
             // 
             // frmOrdenTrabajo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(862, 423);
+            this.Controls.Add(this.btnNewOT);
             this.Controls.Add(this.lbDesc);
             this.Controls.Add(this.txbDesc);
             this.Controls.Add(this.btnFinalizarOT);
@@ -236,8 +254,9 @@
         private System.Windows.Forms.ToolStripMenuItem aBMServiciosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cambiarContraseñaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cotizacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aBMMaterialesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cotizacionToolStripMenuItem;
+        private System.Windows.Forms.Button btnNewOT;
     }
 }
 

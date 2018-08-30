@@ -16,5 +16,15 @@ namespace UI
         {
             InitializeComponent();
         }
+
+        private void btnAddUser_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUpdateUser_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UI
 {
-    public partial class frmUsuario : Form
+    public partial class frmABMUser : Form
     {
-        public frmUsuario()
+        public frmABMUser()
         {
             InitializeComponent();
         }

@@ -21,13 +21,13 @@ namespace DAL
 
 
             Cmm.CommandText = "SELECT Usuario, Contraseña FROM Usuario WHERE Usuario = @Usuario and Contraseña = @Password ";
-            Cmm.Parameters.AddWithValue("@Usuario", user.UserName);
+            Cmm.Parameters.AddWithValue("@Usuario", user.User_name);
             Cmm.Parameters.AddWithValue("@Password", user.Password);
 
             SqlDataReader reader = Cmm.ExecuteReader();
             if (reader.Read()) //mientras haya un registro para leer
             {
-                user.UserName = reader["Usuario"].ToString();
+                user.User_name = reader["Usuario"].ToString();
                 user.Password = reader["Contraseña"].ToString();
             }
             else

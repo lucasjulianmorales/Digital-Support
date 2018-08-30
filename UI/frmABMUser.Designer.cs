@@ -1,6 +1,6 @@
 ﻿namespace UI
 {
-    partial class frmAddUser
+    partial class frmABMUser
     {
         /// <summary>
         /// Required designer variable.
@@ -251,7 +251,7 @@
             this.lbCP.TabIndex = 68;
             this.lbCP.Text = "CP";
             // 
-            // frmAddUser
+            // frmABMUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -279,8 +279,8 @@
             this.Controls.Add(this.btnDeleteUser);
             this.Controls.Add(this.txbNombre);
             this.Controls.Add(this.btnAddUser);
-            this.Name = "frmAddUser";
-            this.Text = "frmAddUser";
+            this.Name = "frmABMUser";
+            this.Text = "ABM Usuarios - Digital Support";
             this.ResumeLayout(false);
             this.PerformLayout();
 

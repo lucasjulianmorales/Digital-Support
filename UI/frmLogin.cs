@@ -23,7 +23,7 @@ namespace UI
         {
 
             Usuario user = new Usuario();
-            user.UserName = txbUser.Text;
+            user.User_name = txbUser.Text;
             user.Password = txbPass.Text;
 
             Usuario_BLL.LogIn(user);

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnUpdateUser = new System.Windows.Forms.Button();
+            this.btnListUser = new System.Windows.Forms.Button();
             this.btnAddUser = new System.Windows.Forms.Button();
             this.dgvUserList = new System.Windows.Forms.DataGridView();
             this.lbUsuario = new System.Windows.Forms.Label();
@@ -42,14 +42,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvUserList)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnUpdateUser
+            // btnListUser
             // 
-            this.btnUpdateUser.Location = new System.Drawing.Point(12, 382);
-            this.btnUpdateUser.Name = "btnUpdateUser";
-            this.btnUpdateUser.Size = new System.Drawing.Size(75, 53);
-            this.btnUpdateUser.TabIndex = 51;
-            this.btnUpdateUser.Text = "Listar Usuarios";
-            this.btnUpdateUser.UseVisualStyleBackColor = true;
+            this.btnListUser.Location = new System.Drawing.Point(12, 382);
+            this.btnListUser.Name = "btnListUser";
+            this.btnListUser.Size = new System.Drawing.Size(75, 53);
+            this.btnListUser.TabIndex = 51;
+            this.btnListUser.Text = "Listar Usuarios";
+            this.btnListUser.UseVisualStyleBackColor = true;
+            this.btnListUser.Click += new System.EventHandler(this.btnUpdateUser_Click);
             // 
             // btnAddUser
             // 
@@ -59,6 +60,7 @@
             this.btnAddUser.TabIndex = 50;
             this.btnAddUser.Text = "Consultar Usuario";
             this.btnAddUser.UseVisualStyleBackColor = true;
+            this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
             // 
             // dgvUserList
             // 
@@ -137,7 +139,7 @@
             this.txbDNI.Size = new System.Drawing.Size(155, 20);
             this.txbDNI.TabIndex = 68;
             // 
-            // ftmConsultUser
+            // frmConsultUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -151,9 +153,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvUserList);
-            this.Controls.Add(this.btnUpdateUser);
+            this.Controls.Add(this.btnListUser);
             this.Controls.Add(this.btnAddUser);
-            this.Name = "ftmConsultUser";
+            this.Name = "frmConsultUser";
             this.Text = "ftmConsultUser";
             ((System.ComponentModel.ISupportInitialize)(this.dgvUserList)).EndInit();
             this.ResumeLayout(false);
@@ -163,7 +165,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnUpdateUser;
+        private System.Windows.Forms.Button btnListUser;
         private System.Windows.Forms.Button btnAddUser;
         private System.Windows.Forms.DataGridView dgvUserList;
         private System.Windows.Forms.Label lbUsuario;

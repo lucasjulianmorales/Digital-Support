@@ -78,11 +78,11 @@
     <Compile Include="frmAddMateriales.Designer.cs">
       <DependentUpon>frmAddMateriales.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAddUser.cs">
+    <Compile Include="frmABMUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAddUser.Designer.cs">
-      <DependentUpon>frmAddUser.cs</DependentUpon>
+    <Compile Include="frmABMUser.Designer.cs">
+      <DependentUpon>frmABMUser.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCotizacion.cs">
       <SubType>Form</SubType>
@@ -95,6 +95,12 @@
     </Compile>
     <Compile Include="frmAddServicios.Designer.cs">
       <DependentUpon>frmAddServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmServicio.Designer.cs">
+      <DependentUpon>frmServicio.cs</DependentUpon>
     </Compile>
     <Compile Include="frmOrdenTrabajo.cs">
       <SubType>Form</SubType>
@@ -114,11 +120,11 @@
     <Compile Include="frmConsultUser.Designer.cs">
       <DependentUpon>frmConsultUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmUsuario.cs">
+    <Compile Include="frmMateriales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmUsuario.Designer.cs">
-      <DependentUpon>frmUsuario.cs</DependentUpon>
+    <Compile Include="frmMateriales.Designer.cs">
+      <DependentUpon>frmMateriales.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -128,14 +134,17 @@
     <EmbeddedResource Include="frmAddMateriales.resx">
       <DependentUpon>frmAddMateriales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAddUser.resx">
-      <DependentUpon>frmAddUser.cs</DependentUpon>
+    <EmbeddedResource Include="frmABMUser.resx">
+      <DependentUpon>frmABMUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCotizacion.resx">
       <DependentUpon>frmCotizacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddServicios.resx">
       <DependentUpon>frmAddServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMateriales.resx">
+      <DependentUpon>frmMateriales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmOrdenTrabajo.resx">
       <DependentUpon>frmOrdenTrabajo.cs</DependentUpon>
@@ -146,8 +155,8 @@
     <EmbeddedResource Include="frmConsultUser.resx">
       <DependentUpon>frmConsultUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmUsuario.resx">
-      <DependentUpon>frmUsuario.cs</DependentUpon>
+    <EmbeddedResource Include="frmServicio.resx">
+      <DependentUpon>frmServicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

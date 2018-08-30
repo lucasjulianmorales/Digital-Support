@@ -46,6 +46,7 @@
             this.btnSendCotizacion = new System.Windows.Forms.Button();
             this.lbDesc = new System.Windows.Forms.Label();
             this.txbDesc = new System.Windows.Forms.TextBox();
+            this.btnNewCotizacion = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCotizacionEmp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cOTIZACIONBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.digita_SupportDataSet)).BeginInit();
@@ -176,11 +177,21 @@
             this.txbDesc.Size = new System.Drawing.Size(389, 117);
             this.txbDesc.TabIndex = 49;
             // 
+            // btnNewCotizacion
+            // 
+            this.btnNewCotizacion.Location = new System.Drawing.Point(509, 342);
+            this.btnNewCotizacion.Name = "btnNewCotizacion";
+            this.btnNewCotizacion.Size = new System.Drawing.Size(75, 53);
+            this.btnNewCotizacion.TabIndex = 51;
+            this.btnNewCotizacion.Text = "Nueva Cotizacion";
+            this.btnNewCotizacion.UseVisualStyleBackColor = true;
+            // 
             // frmCotizacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(862, 423);
+            this.Controls.Add(this.btnNewCotizacion);
             this.Controls.Add(this.lbDesc);
             this.Controls.Add(this.txbDesc);
             this.Controls.Add(this.btnSendCotizacion);
@@ -221,5 +232,6 @@
         private System.Windows.Forms.Button btnSendCotizacion;
         private System.Windows.Forms.Label lbDesc;
         private System.Windows.Forms.TextBox txbDesc;
+        private System.Windows.Forms.Button btnNewCotizacion;
     }
 }
