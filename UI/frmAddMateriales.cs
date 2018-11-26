@@ -16,5 +16,11 @@ namespace UI
         {
             InitializeComponent();
         }
+
+        private void frmAddMateriales_Load(object sender, EventArgs e)
+        {
+            btnAddMateriales.Tag = btnAddMateriales.Text;
+            btnSalir.Tag = btnSalir.Text;
+        }
     }
 }

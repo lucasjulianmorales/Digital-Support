@@ -28,194 +28,181 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOrdenTrabajo));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnAddServicios = new System.Windows.Forms.Button();
             this.btnAddMateriales = new System.Windows.Forms.Button();
             this.btnFinalizarOT = new System.Windows.Forms.Button();
             this.txbDesc = new System.Windows.Forms.TextBox();
             this.lbDesc = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuOT = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cambiarContraseñaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.idiomaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inglesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.españolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ordenDeTrabajoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cotizacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.perfilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.serviciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMServiciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMMaterialesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cotizacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnNewOT = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.menuStrip1.SuspendLayout();
+            this.menuOT.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(15, 56);
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(602, 171);
-            this.dataGridView1.TabIndex = 7;
             // 
             // btnAddServicios
             // 
-            this.btnAddServicios.Location = new System.Drawing.Point(765, 33);
+            resources.ApplyResources(this.btnAddServicios, "btnAddServicios");
             this.btnAddServicios.Name = "btnAddServicios";
-            this.btnAddServicios.Size = new System.Drawing.Size(75, 53);
-            this.btnAddServicios.TabIndex = 45;
-            this.btnAddServicios.Text = "Agregar Servicios";
             this.btnAddServicios.UseVisualStyleBackColor = true;
             this.btnAddServicios.Click += new System.EventHandler(this.btnAddServicios_Click);
             // 
             // btnAddMateriales
             // 
-            this.btnAddMateriales.Location = new System.Drawing.Point(765, 92);
+            resources.ApplyResources(this.btnAddMateriales, "btnAddMateriales");
             this.btnAddMateriales.Name = "btnAddMateriales";
-            this.btnAddMateriales.Size = new System.Drawing.Size(75, 53);
-            this.btnAddMateriales.TabIndex = 44;
-            this.btnAddMateriales.Text = "Agregar Materiales";
             this.btnAddMateriales.UseVisualStyleBackColor = true;
             this.btnAddMateriales.Click += new System.EventHandler(this.btnAddMateriales_Click);
             // 
             // btnFinalizarOT
             // 
-            this.btnFinalizarOT.Location = new System.Drawing.Point(765, 151);
+            resources.ApplyResources(this.btnFinalizarOT, "btnFinalizarOT");
             this.btnFinalizarOT.Name = "btnFinalizarOT";
-            this.btnFinalizarOT.Size = new System.Drawing.Size(75, 53);
-            this.btnFinalizarOT.TabIndex = 46;
-            this.btnFinalizarOT.Text = "Finalizar OT";
             this.btnFinalizarOT.UseVisualStyleBackColor = true;
             this.btnFinalizarOT.Click += new System.EventHandler(this.btnFinalizarOT_Click);
             // 
             // txbDesc
             // 
-            this.txbDesc.Location = new System.Drawing.Point(12, 294);
-            this.txbDesc.Multiline = true;
+            resources.ApplyResources(this.txbDesc, "txbDesc");
             this.txbDesc.Name = "txbDesc";
-            this.txbDesc.Size = new System.Drawing.Size(389, 117);
-            this.txbDesc.TabIndex = 47;
             // 
             // lbDesc
             // 
-            this.lbDesc.AutoSize = true;
-            this.lbDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDesc.Location = new System.Drawing.Point(12, 267);
+            resources.ApplyResources(this.lbDesc, "lbDesc");
             this.lbDesc.Name = "lbDesc";
-            this.lbDesc.Size = new System.Drawing.Size(87, 15);
-            this.lbDesc.TabIndex = 48;
-            this.lbDesc.Text = "Descripción:";
             // 
-            // menuStrip1
+            // menuOT
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuOT.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem,
             this.usuarioToolStripMenuItem,
-            this.ordenDeTrabajoToolStripMenuItem,
             this.serviciosToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(862, 24);
-            this.menuStrip1.TabIndex = 49;
-            this.menuStrip1.Text = "menuStrip1";
+            resources.ApplyResources(this.menuOT, "menuOT");
+            this.menuOT.Name = "menuOT";
+            this.menuOT.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuOT_ItemClicked);
             // 
             // menuToolStripMenuItem
             // 
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cambiarContraseñaToolStripMenuItem,
+            this.idiomaToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.menuToolStripMenuItem.Text = "Menu";
+            resources.ApplyResources(this.menuToolStripMenuItem, "menuToolStripMenuItem");
             // 
             // cambiarContraseñaToolStripMenuItem
             // 
             this.cambiarContraseñaToolStripMenuItem.Name = "cambiarContraseñaToolStripMenuItem";
-            this.cambiarContraseñaToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.cambiarContraseñaToolStripMenuItem.Text = "Cambiar Contraseña";
+            resources.ApplyResources(this.cambiarContraseñaToolStripMenuItem, "cambiarContraseñaToolStripMenuItem");
+            // 
+            // idiomaToolStripMenuItem
+            // 
+            this.idiomaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inglesToolStripMenuItem,
+            this.españolToolStripMenuItem});
+            this.idiomaToolStripMenuItem.Name = "idiomaToolStripMenuItem";
+            resources.ApplyResources(this.idiomaToolStripMenuItem, "idiomaToolStripMenuItem");
+            // 
+            // inglesToolStripMenuItem
+            // 
+            this.inglesToolStripMenuItem.Name = "inglesToolStripMenuItem";
+            resources.ApplyResources(this.inglesToolStripMenuItem, "inglesToolStripMenuItem");
+            this.inglesToolStripMenuItem.Click += new System.EventHandler(this.inglesToolStripMenuItem_Click);
+            // 
+            // españolToolStripMenuItem
+            // 
+            this.españolToolStripMenuItem.Name = "españolToolStripMenuItem";
+            resources.ApplyResources(this.españolToolStripMenuItem, "españolToolStripMenuItem");
+            this.españolToolStripMenuItem.Click += new System.EventHandler(this.españolToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
+            resources.ApplyResources(this.salirToolStripMenuItem, "salirToolStripMenuItem");
             // 
             // usuarioToolStripMenuItem
             // 
             this.usuarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.buscarToolStripMenuItem,
-            this.agregarToolStripMenuItem});
+            this.agregarToolStripMenuItem,
+            this.perfilToolStripMenuItem});
             this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
-            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.usuarioToolStripMenuItem.Text = "Usuario";
+            resources.ApplyResources(this.usuarioToolStripMenuItem, "usuarioToolStripMenuItem");
             // 
             // buscarToolStripMenuItem
             // 
             this.buscarToolStripMenuItem.Name = "buscarToolStripMenuItem";
-            this.buscarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.buscarToolStripMenuItem.Text = "Consultar";
+            resources.ApplyResources(this.buscarToolStripMenuItem, "buscarToolStripMenuItem");
             this.buscarToolStripMenuItem.Click += new System.EventHandler(this.buscarToolStripMenuItem_Click);
             // 
             // agregarToolStripMenuItem
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.agregarToolStripMenuItem.Text = "ABM Usuario";
+            resources.ApplyResources(this.agregarToolStripMenuItem, "agregarToolStripMenuItem");
             this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
             // 
-            // ordenDeTrabajoToolStripMenuItem
+            // perfilToolStripMenuItem
             // 
-            this.ordenDeTrabajoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cotizacionToolStripMenuItem});
-            this.ordenDeTrabajoToolStripMenuItem.Name = "ordenDeTrabajoToolStripMenuItem";
-            this.ordenDeTrabajoToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.ordenDeTrabajoToolStripMenuItem.Text = "Cotizacion";
-            // 
-            // cotizacionToolStripMenuItem
-            // 
-            this.cotizacionToolStripMenuItem.Name = "cotizacionToolStripMenuItem";
-            this.cotizacionToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
-            this.cotizacionToolStripMenuItem.Text = "Cotizacion";
-            this.cotizacionToolStripMenuItem.Click += new System.EventHandler(this.cotizacionToolStripMenuItem_Click);
+            this.perfilToolStripMenuItem.Name = "perfilToolStripMenuItem";
+            resources.ApplyResources(this.perfilToolStripMenuItem, "perfilToolStripMenuItem");
             // 
             // serviciosToolStripMenuItem
             // 
             this.serviciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aBMServiciosToolStripMenuItem,
-            this.aBMMaterialesToolStripMenuItem});
+            this.aBMMaterialesToolStripMenuItem,
+            this.cotizacionesToolStripMenuItem});
             this.serviciosToolStripMenuItem.Name = "serviciosToolStripMenuItem";
-            this.serviciosToolStripMenuItem.Size = new System.Drawing.Size(131, 20);
-            this.serviciosToolStripMenuItem.Text = "Servicios y Materiales";
+            resources.ApplyResources(this.serviciosToolStripMenuItem, "serviciosToolStripMenuItem");
             // 
             // aBMServiciosToolStripMenuItem
             // 
             this.aBMServiciosToolStripMenuItem.Name = "aBMServiciosToolStripMenuItem";
-            this.aBMServiciosToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.aBMServiciosToolStripMenuItem.Text = "ABM Servicios";
+            resources.ApplyResources(this.aBMServiciosToolStripMenuItem, "aBMServiciosToolStripMenuItem");
             this.aBMServiciosToolStripMenuItem.Click += new System.EventHandler(this.aBMServiciosToolStripMenuItem_Click);
             // 
             // aBMMaterialesToolStripMenuItem
             // 
             this.aBMMaterialesToolStripMenuItem.Name = "aBMMaterialesToolStripMenuItem";
-            this.aBMMaterialesToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.aBMMaterialesToolStripMenuItem.Text = "ABM  Materiales";
+            resources.ApplyResources(this.aBMMaterialesToolStripMenuItem, "aBMMaterialesToolStripMenuItem");
             this.aBMMaterialesToolStripMenuItem.Click += new System.EventHandler(this.aBMMaterialesToolStripMenuItem_Click);
+            // 
+            // cotizacionesToolStripMenuItem
+            // 
+            this.cotizacionesToolStripMenuItem.Name = "cotizacionesToolStripMenuItem";
+            resources.ApplyResources(this.cotizacionesToolStripMenuItem, "cotizacionesToolStripMenuItem");
             // 
             // btnNewOT
             // 
-            this.btnNewOT.Location = new System.Drawing.Point(765, 358);
+            resources.ApplyResources(this.btnNewOT, "btnNewOT");
             this.btnNewOT.Name = "btnNewOT";
-            this.btnNewOT.Size = new System.Drawing.Size(75, 53);
-            this.btnNewOT.TabIndex = 50;
-            this.btnNewOT.Text = "Nueva OT";
             this.btnNewOT.UseVisualStyleBackColor = true;
+            this.btnNewOT.Click += new System.EventHandler(this.btnNewOT_Click);
             // 
             // frmOrdenTrabajo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(862, 423);
             this.Controls.Add(this.btnNewOT);
             this.Controls.Add(this.lbDesc);
             this.Controls.Add(this.txbDesc);
@@ -223,15 +210,13 @@
             this.Controls.Add(this.btnAddServicios);
             this.Controls.Add(this.btnAddMateriales);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.menuOT);
+            this.MainMenuStrip = this.menuOT;
             this.Name = "frmOrdenTrabajo";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ordenes de Trabajo - Digital Support";
             this.Load += new System.EventHandler(this.frmTecnico_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.menuOT.ResumeLayout(false);
+            this.menuOT.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,18 +229,21 @@
         private System.Windows.Forms.Button btnFinalizarOT;
         private System.Windows.Forms.TextBox txbDesc;
         private System.Windows.Forms.Label lbDesc;
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip menuOT;
         private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem buscarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ordenDeTrabajoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem serviciosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aBMServiciosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cambiarContraseñaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aBMMaterialesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cotizacionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem idiomaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inglesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem españolToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem perfilToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cotizacionesToolStripMenuItem;
         private System.Windows.Forms.Button btnNewOT;
     }
 }

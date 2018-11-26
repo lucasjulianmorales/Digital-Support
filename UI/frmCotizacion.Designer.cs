@@ -47,10 +47,26 @@
             this.lbDesc = new System.Windows.Forms.Label();
             this.txbDesc = new System.Windows.Forms.TextBox();
             this.btnNewCotizacion = new System.Windows.Forms.Button();
+            this.menuOT = new System.Windows.Forms.MenuStrip();
+            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.CambiarContraseñaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.idiomaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inglesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.españolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.buscarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.perfilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.serviciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMServiciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMMaterialesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cotizacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCotizacionEmp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cOTIZACIONBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.digita_SupportDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.menuOT.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgvCotizacionEmp
@@ -65,7 +81,7 @@
             this.dgvCotizacionEmp.DataSource = this.cOTIZACIONBindingSource;
             this.dgvCotizacionEmp.Location = new System.Drawing.Point(12, 45);
             this.dgvCotizacionEmp.Name = "dgvCotizacionEmp";
-            this.dgvCotizacionEmp.Size = new System.Drawing.Size(688, 152);
+            this.dgvCotizacionEmp.Size = new System.Drawing.Size(688, 203);
             this.dgvCotizacionEmp.TabIndex = 0;
             // 
             // iDcotizacionDataGridViewTextBoxColumn
@@ -117,7 +133,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(722, 340);
+            this.textBox1.Location = new System.Drawing.Point(520, 278);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(105, 20);
             this.textBox1.TabIndex = 35;
@@ -126,7 +142,7 @@
             // 
             this.lbMonto.AutoSize = true;
             this.lbMonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMonto.Location = new System.Drawing.Point(665, 341);
+            this.lbMonto.Location = new System.Drawing.Point(463, 279);
             this.lbMonto.Name = "lbMonto";
             this.lbMonto.Size = new System.Drawing.Size(51, 15);
             this.lbMonto.TabIndex = 36;
@@ -179,18 +195,131 @@
             // 
             // btnNewCotizacion
             // 
-            this.btnNewCotizacion.Location = new System.Drawing.Point(509, 342);
+            this.btnNewCotizacion.Location = new System.Drawing.Point(736, 342);
             this.btnNewCotizacion.Name = "btnNewCotizacion";
             this.btnNewCotizacion.Size = new System.Drawing.Size(75, 53);
             this.btnNewCotizacion.TabIndex = 51;
             this.btnNewCotizacion.Text = "Nueva Cotizacion";
             this.btnNewCotizacion.UseVisualStyleBackColor = true;
+            this.btnNewCotizacion.Click += new System.EventHandler(this.btnNewCotizacion_Click);
+            // 
+            // menuOT
+            // 
+            this.menuOT.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem,
+            this.usuarioToolStripMenuItem,
+            this.serviciosToolStripMenuItem});
+            this.menuOT.Location = new System.Drawing.Point(0, 0);
+            this.menuOT.Name = "menuOT";
+            this.menuOT.Size = new System.Drawing.Size(862, 24);
+            this.menuOT.TabIndex = 52;
+            this.menuOT.Text = "menuStrip1";
+            // 
+            // menuToolStripMenuItem
+            // 
+            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.CambiarContraseñaToolStripMenuItem,
+            this.idiomaToolStripMenuItem,
+            this.salirToolStripMenuItem});
+            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.menuToolStripMenuItem.Text = "Menu";
+            // 
+            // CambiarContraseñaToolStripMenuItem
+            // 
+            this.CambiarContraseñaToolStripMenuItem.Name = "CambiarContraseñaToolStripMenuItem";
+            this.CambiarContraseñaToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.CambiarContraseñaToolStripMenuItem.Text = "Cambiar Contraseña";
+            // 
+            // idiomaToolStripMenuItem
+            // 
+            this.idiomaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inglesToolStripMenuItem,
+            this.españolToolStripMenuItem});
+            this.idiomaToolStripMenuItem.Name = "idiomaToolStripMenuItem";
+            this.idiomaToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.idiomaToolStripMenuItem.Text = "Idioma";
+            // 
+            // inglesToolStripMenuItem
+            // 
+            this.inglesToolStripMenuItem.Name = "inglesToolStripMenuItem";
+            this.inglesToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.inglesToolStripMenuItem.Text = "English";
+            // 
+            // españolToolStripMenuItem
+            // 
+            this.españolToolStripMenuItem.Name = "españolToolStripMenuItem";
+            this.españolToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.españolToolStripMenuItem.Text = "Español";
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            // 
+            // usuarioToolStripMenuItem
+            // 
+            this.usuarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.buscarToolStripMenuItem,
+            this.agregarToolStripMenuItem,
+            this.perfilToolStripMenuItem});
+            this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
+            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.usuarioToolStripMenuItem.Text = "Usuario";
+            // 
+            // buscarToolStripMenuItem
+            // 
+            this.buscarToolStripMenuItem.Name = "buscarToolStripMenuItem";
+            this.buscarToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.buscarToolStripMenuItem.Text = "Consultar";
+            // 
+            // agregarToolStripMenuItem
+            // 
+            this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.agregarToolStripMenuItem.Text = "ABM Usuario";
+            // 
+            // perfilToolStripMenuItem
+            // 
+            this.perfilToolStripMenuItem.Name = "perfilToolStripMenuItem";
+            this.perfilToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.perfilToolStripMenuItem.Text = "Perfil";
+            // 
+            // serviciosToolStripMenuItem
+            // 
+            this.serviciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aBMServiciosToolStripMenuItem,
+            this.aBMMaterialesToolStripMenuItem,
+            this.cotizacionesToolStripMenuItem});
+            this.serviciosToolStripMenuItem.Name = "serviciosToolStripMenuItem";
+            this.serviciosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.serviciosToolStripMenuItem.Text = "Utilidades";
+            // 
+            // aBMServiciosToolStripMenuItem
+            // 
+            this.aBMServiciosToolStripMenuItem.Name = "aBMServiciosToolStripMenuItem";
+            this.aBMServiciosToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.aBMServiciosToolStripMenuItem.Text = "ABM Servicio";
+            // 
+            // aBMMaterialesToolStripMenuItem
+            // 
+            this.aBMMaterialesToolStripMenuItem.Name = "aBMMaterialesToolStripMenuItem";
+            this.aBMMaterialesToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.aBMMaterialesToolStripMenuItem.Text = "ABM  Material";
+            // 
+            // cotizacionesToolStripMenuItem
+            // 
+            this.cotizacionesToolStripMenuItem.Name = "cotizacionesToolStripMenuItem";
+            this.cotizacionesToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.cotizacionesToolStripMenuItem.Text = "Orden de Trabajo";
             // 
             // frmCotizacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(862, 423);
+            this.Controls.Add(this.menuOT);
             this.Controls.Add(this.btnNewCotizacion);
             this.Controls.Add(this.lbDesc);
             this.Controls.Add(this.txbDesc);
@@ -208,6 +337,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.cOTIZACIONBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.digita_SupportDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            this.menuOT.ResumeLayout(false);
+            this.menuOT.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -233,5 +364,20 @@
         private System.Windows.Forms.Label lbDesc;
         private System.Windows.Forms.TextBox txbDesc;
         private System.Windows.Forms.Button btnNewCotizacion;
+        private System.Windows.Forms.MenuStrip menuOT;
+        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem CambiarContraseñaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem idiomaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inglesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem españolToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem usuarioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem buscarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem perfilToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem serviciosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aBMServiciosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aBMMaterialesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cotizacionesToolStripMenuItem;
     }
 }

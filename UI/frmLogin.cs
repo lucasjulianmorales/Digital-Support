@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BLL;
 using ENTITY;
+using SL;
 
 namespace UI
 {
@@ -41,6 +42,15 @@ namespace UI
             frmOT.Dispose();
 
             
+        }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+            lbContraseña.Tag = lbContraseña.Text;
+            lbUsuario.Tag = lbUsuario.Text;
+            btnLogIn.Tag = btnLogIn.Text;
+            ServicioControlTraductor.TraducirFormulario(this);
+
         }
     }
 }

@@ -20,6 +20,13 @@ namespace UI
         private void frmMateriales_Load(object sender, EventArgs e)
         {
 
+            btnAddMateriales.Tag = btnAddMateriales.Text;
+            btnDeleteMateriales.Tag = btnDeleteMateriales.Text;
+            btnUpdateServicio.Tag = btnUpdateServicio.Text;
+            lbMateriales.Tag = lbMateriales.Text;
+
+            ServicioControlTraductor.TraducirFormulario(this);
+            
         }
     }
 }

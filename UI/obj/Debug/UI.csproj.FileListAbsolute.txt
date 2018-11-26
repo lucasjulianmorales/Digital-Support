@@ -41,3 +41,47 @@ E:\Practica Profesional 2018\Digital Support\Programa\Digital Support\UI\obj\Deb
 E:\Practica Profesional 2018\Digital Support\Programa\Digital Support\UI\obj\Debug\UI.csproj.CopyComplete
 E:\Practica Profesional 2018\Digital Support\Programa\Digital Support\UI\obj\Debug\UI.frmMateriales.resources
 E:\Practica Profesional 2018\Digital Support\Programa\Digital Support\UI\obj\Debug\UI.frmServicio.resources
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\bin\Debug\UI.exe.config
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\bin\Debug\UI.exe
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\bin\Debug\UI.pdb
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\bin\Debug\BLL.dll
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\bin\Debug\ENTITY.dll
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\bin\Debug\DAL.dll
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\bin\Debug\BLL.pdb
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\bin\Debug\ENTITY.pdb
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\bin\Debug\DAL.pdb
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmAddColaboradores.resources
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmAddMateriales.resources
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmABMUser.resources
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmCotizacion.resources
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmAddServicios.resources
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmMateriales.resources
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmOrdenTrabajo.resources
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmLogin.resources
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmConsultUser.resources
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmServicio.resources
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.Properties.Resources.resources
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.csproj.GenerateResource.cache
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.csproj.CopyComplete
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.exe
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.pdb
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\bin\Debug\SL.dll
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\UI\bin\Debug\SL.pdb
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.csprojAssemblyReference.cache
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmAddColaboradores.resources
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmAddMateriales.resources
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmABMUser.resources
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmCotizacion.resources
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmAddServicios.resources
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmMateriales.resources
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmOrdenTrabajo.resources
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmLogin.resources
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmConsultUser.resources
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.frmServicio.resources
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.Properties.Resources.resources
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.csproj.GenerateResource.cache
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.exe
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\UI\obj\Debug\UI.pdb

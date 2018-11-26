@@ -16,5 +16,15 @@ namespace UI
         {
             InitializeComponent();
         }
+
+        private void frmAddServicios_Load(object sender, EventArgs e)
+        {
+            btnAddServicios.Tag = btnAddServicios.Text;
+            btnSalir.Tag = btnSalir.Text;
+            lbAsignados.Tag = lbAsignados.Text;
+            lbCantidad.Tag = lbCantidad.Text;
+            lbServicios.Tag = lbServicios.Text;
+           
+        }
     }
 }

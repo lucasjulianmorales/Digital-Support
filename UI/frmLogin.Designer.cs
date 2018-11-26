@@ -83,7 +83,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(519, 282);
+            this.ClientSize = new System.Drawing.Size(535, 282);
             this.Controls.Add(this.lbContraseña);
             this.Controls.Add(this.lbUsuario);
             this.Controls.Add(this.txbPass);
@@ -91,7 +91,8 @@
             this.Controls.Add(this.btnLogIn);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Log IN - Digital Support";
+            this.Text = "Log In - Digital Support";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

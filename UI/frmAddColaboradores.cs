@@ -16,5 +16,14 @@ namespace UI
         {
             InitializeComponent();
         }
+
+        private void frmAddColaboradores_Load(object sender, EventArgs e)
+        {
+            btnAddColaboradores.Tag = btnAddColaboradores.Text;
+            btnSalir.Tag = btnSalir.Text;
+            lbTecnicos.Tag = lbTecnicos.Text;
+            lbAsignados.Tag = lbAsignados.Text;
+
+        }
     }
 }

@@ -42,7 +42,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(413, 388);
+            this.btnSalir.Location = new System.Drawing.Point(408, 388);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 33;
@@ -92,9 +92,9 @@
             this.lbTecnicos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTecnicos.Location = new System.Drawing.Point(12, 23);
             this.lbTecnicos.Name = "lbTecnicos";
-            this.lbTecnicos.Size = new System.Drawing.Size(68, 15);
+            this.lbTecnicos.Size = new System.Drawing.Size(64, 15);
             this.lbTecnicos.TabIndex = 28;
-            this.lbTecnicos.Text = "Tecnicos:";
+            this.lbTecnicos.Text = "Tecnicos";
             // 
             // btnPasarIzq
             // 
@@ -148,6 +148,7 @@
             this.Name = "frmAddColaboradores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Agrega Colaboradores";
+            this.Load += new System.EventHandler(this.frmAddColaboradores_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

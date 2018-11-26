@@ -93,6 +93,7 @@
             this.Controls.Add(this.dgvServicios);
             this.Name = "frmServicio";
             this.Text = "frmNewServicio";
+            this.Load += new System.EventHandler(this.frmServicio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvServicios)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

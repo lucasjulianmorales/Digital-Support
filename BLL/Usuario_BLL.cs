@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using ENTITY;
 using DAL;
+using SL;
+using SL.Idioma;
 
 namespace BLL
 {
@@ -22,6 +24,8 @@ namespace BLL
             return user;
         }
 
+        
+        
 
     }
 }

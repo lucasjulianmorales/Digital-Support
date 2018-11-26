@@ -32,11 +32,11 @@
             this.btnDeleteUser = new System.Windows.Forms.Button();
             this.txbNombre = new System.Windows.Forms.TextBox();
             this.btnAddUser = new System.Windows.Forms.Button();
-            this.lblNombre = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbNombre = new System.Windows.Forms.Label();
+            this.lbApellido = new System.Windows.Forms.Label();
+            this.lbDni = new System.Windows.Forms.Label();
+            this.lbCelular = new System.Windows.Forms.Label();
+            this.lbDireccion = new System.Windows.Forms.Label();
             this.cmbPerfil = new System.Windows.Forms.ComboBox();
             this.lbPerfil = new System.Windows.Forms.Label();
             this.lbUsuario = new System.Windows.Forms.Label();
@@ -50,7 +50,7 @@
             this.txbLocalidad = new System.Windows.Forms.TextBox();
             this.lbLocalidad = new System.Windows.Forms.Label();
             this.txbCP = new System.Windows.Forms.TextBox();
-            this.lbCP = new System.Windows.Forms.Label();
+            this.lbCodigoPostal = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnUpdateUser
@@ -87,55 +87,55 @@
             this.btnAddUser.Text = "Agregar Usuario";
             this.btnAddUser.UseVisualStyleBackColor = true;
             // 
-            // lblNombre
+            // lbNombre
             // 
-            this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(28, 41);
-            this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(58, 15);
-            this.lblNombre.TabIndex = 50;
-            this.lblNombre.Text = "Nombre";
+            this.lbNombre.AutoSize = true;
+            this.lbNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNombre.Location = new System.Drawing.Point(28, 41);
+            this.lbNombre.Name = "lbNombre";
+            this.lbNombre.Size = new System.Drawing.Size(58, 15);
+            this.lbNombre.TabIndex = 50;
+            this.lbNombre.Text = "Nombre";
             // 
-            // label1
+            // lbApellido
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(28, 82);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 15);
-            this.label1.TabIndex = 51;
-            this.label1.Text = "Apellido";
+            this.lbApellido.AutoSize = true;
+            this.lbApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbApellido.Location = new System.Drawing.Point(28, 82);
+            this.lbApellido.Name = "lbApellido";
+            this.lbApellido.Size = new System.Drawing.Size(59, 15);
+            this.lbApellido.TabIndex = 51;
+            this.lbApellido.Text = "Apellido";
             // 
-            // label2
+            // lbDni
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(28, 123);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 15);
-            this.label2.TabIndex = 52;
-            this.label2.Text = "DNI";
+            this.lbDni.AutoSize = true;
+            this.lbDni.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDni.Location = new System.Drawing.Point(28, 123);
+            this.lbDni.Name = "lbDni";
+            this.lbDni.Size = new System.Drawing.Size(31, 15);
+            this.lbDni.TabIndex = 52;
+            this.lbDni.Text = "DNI";
             // 
-            // label3
+            // lbCelular
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(28, 205);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 15);
-            this.label3.TabIndex = 53;
-            this.label3.Text = "Celular";
+            this.lbCelular.AutoSize = true;
+            this.lbCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCelular.Location = new System.Drawing.Point(28, 205);
+            this.lbCelular.Name = "lbCelular";
+            this.lbCelular.Size = new System.Drawing.Size(53, 15);
+            this.lbCelular.TabIndex = 53;
+            this.lbCelular.Text = "Celular";
             // 
-            // label4
+            // lbDireccion
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(28, 328);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 15);
-            this.label4.TabIndex = 54;
-            this.label4.Text = "Direccion";
+            this.lbDireccion.AutoSize = true;
+            this.lbDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDireccion.Location = new System.Drawing.Point(28, 328);
+            this.lbDireccion.Name = "lbDireccion";
+            this.lbDireccion.Size = new System.Drawing.Size(68, 15);
+            this.lbDireccion.TabIndex = 54;
+            this.lbDireccion.Text = "Direccion";
             // 
             // cmbPerfil
             // 
@@ -241,22 +241,22 @@
             this.txbCP.Size = new System.Drawing.Size(111, 20);
             this.txbCP.TabIndex = 67;
             // 
-            // lbCP
+            // lbCodigoPostal
             // 
-            this.lbCP.AutoSize = true;
-            this.lbCP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCP.Location = new System.Drawing.Point(28, 248);
-            this.lbCP.Name = "lbCP";
-            this.lbCP.Size = new System.Drawing.Size(25, 15);
-            this.lbCP.TabIndex = 68;
-            this.lbCP.Text = "CP";
+            this.lbCodigoPostal.AutoSize = true;
+            this.lbCodigoPostal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCodigoPostal.Location = new System.Drawing.Point(28, 248);
+            this.lbCodigoPostal.Name = "lbCodigoPostal";
+            this.lbCodigoPostal.Size = new System.Drawing.Size(25, 15);
+            this.lbCodigoPostal.TabIndex = 68;
+            this.lbCodigoPostal.Text = "CP";
             // 
             // frmABMUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(666, 447);
-            this.Controls.Add(this.lbCP);
+            this.Controls.Add(this.lbCodigoPostal);
             this.Controls.Add(this.txbCP);
             this.Controls.Add(this.lbLocalidad);
             this.Controls.Add(this.txbLocalidad);
@@ -270,17 +270,18 @@
             this.Controls.Add(this.lbUsuario);
             this.Controls.Add(this.lbPerfil);
             this.Controls.Add(this.cmbPerfil);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblNombre);
+            this.Controls.Add(this.lbDireccion);
+            this.Controls.Add(this.lbCelular);
+            this.Controls.Add(this.lbDni);
+            this.Controls.Add(this.lbApellido);
+            this.Controls.Add(this.lbNombre);
             this.Controls.Add(this.btnUpdateUser);
             this.Controls.Add(this.btnDeleteUser);
             this.Controls.Add(this.txbNombre);
             this.Controls.Add(this.btnAddUser);
             this.Name = "frmABMUser";
             this.Text = "ABM Usuarios - Digital Support";
+            this.Load += new System.EventHandler(this.frmABMUser_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -292,11 +293,11 @@
         private System.Windows.Forms.Button btnDeleteUser;
         private System.Windows.Forms.TextBox txbNombre;
         private System.Windows.Forms.Button btnAddUser;
-        private System.Windows.Forms.Label lblNombre;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbNombre;
+        private System.Windows.Forms.Label lbApellido;
+        private System.Windows.Forms.Label lbDni;
+        private System.Windows.Forms.Label lbCelular;
+        private System.Windows.Forms.Label lbDireccion;
         private System.Windows.Forms.ComboBox cmbPerfil;
         private System.Windows.Forms.Label lbPerfil;
         private System.Windows.Forms.Label lbUsuario;
@@ -310,6 +311,6 @@
         private System.Windows.Forms.TextBox txbLocalidad;
         private System.Windows.Forms.Label lbLocalidad;
         private System.Windows.Forms.TextBox txbCP;
-        private System.Windows.Forms.Label lbCP;
+        private System.Windows.Forms.Label lbCodigoPostal;
     }
 }

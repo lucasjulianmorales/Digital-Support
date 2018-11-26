@@ -16,5 +16,15 @@ namespace UI
         {
             InitializeComponent();
         }
+
+        private void frmServicio_Load(object sender, EventArgs e)
+        {
+            btnAddServicios.Tag = btnAddServicios.Text;
+            btnDeleteServicio.Tag = btnDeleteServicio.Text;
+            btnUpdateServicio.Tag = btnUpdateServicio;
+            lbServicios.Tag = lbServicios.Text;
+
+            ServicioControlTraductor.TraducirFormulario(this);
+        }
     }
 }

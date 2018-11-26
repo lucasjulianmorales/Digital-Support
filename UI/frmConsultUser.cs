@@ -26,5 +26,15 @@ namespace UI
         {
 
         }
+
+        private void frmConsultUser_Load(object sender, EventArgs e)
+        {
+            btnAddUser.Tag = btnAddUser.Text;
+            btnListUser.Tag = btnListUser.Text;
+            lbPerfil.Tag = lbPerfil.Text;
+            lbUsuario.Tag = lbUsuario.Text;
+            lbDni.Tag = lbDni.Text;
+            lbApellido.Tag = lbApellido.Text;
+        }
     }
 }

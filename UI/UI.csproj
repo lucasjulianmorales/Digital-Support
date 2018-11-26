@@ -128,6 +128,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServicioControlTraductor.cs" />
     <EmbeddedResource Include="frmAddColaboradores.resx">
       <DependentUpon>frmAddColaboradores.cs</DependentUpon>
     </EmbeddedResource>
@@ -200,6 +201,10 @@
       <Project>{e4b4bf7d-6a57-4803-b528-d51242ca04de}</Project>
       <Name>ENTITY</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SL\SL.csproj">
+      <Project>{380f856d-24af-4eac-a9a4-1a28490f3957}</Project>
+      <Name>SL</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -212,6 +217,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

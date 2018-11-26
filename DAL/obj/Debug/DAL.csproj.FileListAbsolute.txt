@@ -15,3 +15,21 @@ E:\Practica Profesional 2018\Digital Support\Programa\Digital Support\DAL\obj\De
 E:\Practica Profesional 2018\Digital Support\Programa\Digital Support\DAL\obj\Debug\DAL.csproj.CopyComplete
 E:\Practica Profesional 2018\Digital Support\Programa\Digital Support\DAL\obj\Debug\DAL.dll
 E:\Practica Profesional 2018\Digital Support\Programa\Digital Support\DAL\obj\Debug\DAL.pdb
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\DAL\bin\Debug\DAL.dll
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\DAL\bin\Debug\DAL.pdb
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\DAL\bin\Debug\ENTITY.dll
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\DAL\bin\Debug\ENTITY.pdb
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.dll
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.pdb
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\bin\Debug\DAL.dll
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\bin\Debug\DAL.pdb
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\bin\Debug\ENTITY.dll
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\bin\Debug\ENTITY.pdb
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.dll
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.pdb

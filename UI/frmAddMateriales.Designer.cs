@@ -64,9 +64,9 @@
             this.lbMateriales.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMateriales.Location = new System.Drawing.Point(12, 25);
             this.lbMateriales.Name = "lbMateriales";
-            this.lbMateriales.Size = new System.Drawing.Size(79, 15);
+            this.lbMateriales.Size = new System.Drawing.Size(75, 15);
             this.lbMateriales.TabIndex = 18;
-            this.lbMateriales.Text = "Materiales:";
+            this.lbMateriales.Text = "Materiales";
             // 
             // lbUtilizados
             // 
@@ -74,9 +74,9 @@
             this.lbUtilizados.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbUtilizados.Location = new System.Drawing.Point(306, 25);
             this.lbUtilizados.Name = "lbUtilizados";
-            this.lbUtilizados.Size = new System.Drawing.Size(75, 15);
+            this.lbUtilizados.Size = new System.Drawing.Size(71, 15);
             this.lbUtilizados.TabIndex = 21;
-            this.lbUtilizados.Text = "Utilizados:";
+            this.lbUtilizados.Text = "Utilizados";
             // 
             // btnAddMateriales
             // 
@@ -145,9 +145,9 @@
             this.lbCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCantidad.Location = new System.Drawing.Point(12, 388);
             this.lbCantidad.Name = "lbCantidad";
-            this.lbCantidad.Size = new System.Drawing.Size(68, 15);
+            this.lbCantidad.Size = new System.Drawing.Size(64, 15);
             this.lbCantidad.TabIndex = 46;
-            this.lbCantidad.Text = "Cantidad:";
+            this.lbCantidad.Text = "Cantidad";
             // 
             // frmAddMateriales
             // 
@@ -168,6 +168,7 @@
             this.Controls.Add(this.lstMateriales);
             this.Name = "frmAddMateriales";
             this.Text = "Agregar Materiales";
+            this.Load += new System.EventHandler(this.frmAddMateriales_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

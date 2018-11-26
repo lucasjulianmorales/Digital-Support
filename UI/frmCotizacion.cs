@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ENTITY;
+using BLL;
 
 namespace UI
 {
@@ -21,6 +23,22 @@ namespace UI
         {
             // TODO: esta línea de código carga datos en la tabla 'digita_SupportDataSet.COTIZACION' Puede moverla o quitarla según sea necesario.
             this.cOTIZACIONTableAdapter.Fill(this.digita_SupportDataSet.COTIZACION);
+
+        }
+
+        private void btnNewCotizacion_Click(object sender, EventArgs e)
+        {
+
+            Cotizacion cotizacion = Cotizacion_BLL.NewCotizacion();
+            cotizacion.Descripcion = txbDesc.Text;
+            cotizacion.
+                
+            
+
+           // cotizacion.Descripcion
+            
+
+
 
         }
     }

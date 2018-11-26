@@ -138,9 +138,9 @@
             this.lbCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCantidad.Location = new System.Drawing.Point(12, 388);
             this.lbCantidad.Name = "lbCantidad";
-            this.lbCantidad.Size = new System.Drawing.Size(68, 15);
+            this.lbCantidad.Size = new System.Drawing.Size(64, 15);
             this.lbCantidad.TabIndex = 44;
-            this.lbCantidad.Text = "Cantidad:";
+            this.lbCantidad.Text = "Cantidad";
             // 
             // textBox1
             // 
@@ -169,6 +169,7 @@
             this.Name = "frmAddServicios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Agrega Servicios";
+            this.Load += new System.EventHandler(this.frmAddServicios_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

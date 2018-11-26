@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cotizacion.cs" />
-    <Compile Include="Estado.cs" />
+    <Compile Include="Orden_Trabajo.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -10,10 +10,17 @@ namespace BLL
 {
     public static class Cotizacion_BLL
     {
-        public static Cotizacion AddCotizacion(Cotizacion cotizacion)
+        private static Cotizacion cotizacion;
+
+        public static Cotizacion NewCotizacion()
         {
-           Cotizacion_DAL.AD
-            
+            if (cotizacion == null)
+            {
+                cotizacion = new Cotizacion();
+            }
+
+            return cotizacion;
+
         }
     }
 }

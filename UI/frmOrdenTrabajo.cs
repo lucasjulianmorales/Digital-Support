@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SL;
+using SL.Idioma;
+
 
 namespace UI
 
@@ -20,7 +23,10 @@ namespace UI
 
         private void frmTecnico_Load(object sender, EventArgs e)
         {
-
+            btnAddMateriales.Tag = "Agregar Materiales";
+            btnAddServicios.Tag = "Agregar Servicios";
+            btnFinalizarOT.Tag = "Finaliza OT";
+            aBMMaterialesToolStripMenuItem.Tag = "";
         }
 
         private void aBMServiciosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -70,8 +76,29 @@ namespace UI
             frmCotizacion.ShowDialog();
 
         }
-       
 
+        private void inglesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            SL.Idioma.Idioma_SL cultura = new Idioma_SL();
+            cultura.CambiarIdioma("en-US");
+            MessageBox.Show("The language changed to English");
+        }
+
+        private void españolToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("El idioma cambio a Español");
+        }
+
+        private void menuOT_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void btnNewOT_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 
 

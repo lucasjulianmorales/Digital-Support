@@ -10,3 +10,15 @@ E:\Practica Profesional 2018\Digital Support\Programa\Digital Support\ENTITY\obj
 E:\Practica Profesional 2018\Digital Support\Programa\Digital Support\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
 E:\Practica Profesional 2018\Digital Support\Programa\Digital Support\ENTITY\obj\Debug\ENTITY.dll
 E:\Practica Profesional 2018\Digital Support\Programa\Digital Support\ENTITY\obj\Debug\ENTITY.pdb
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\ENTITY\bin\Debug\ENTITY.dll
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\ENTITY\bin\Debug\ENTITY.pdb
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\ENTITY\obj\Debug\ENTITY.dll
+E:\backup\Practica Profesional 2018\Digital Support\Digital Support\ENTITY\obj\Debug\ENTITY.pdb
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\ENTITY\bin\Debug\ENTITY.dll
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\ENTITY\bin\Debug\ENTITY.pdb
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\ENTITY\obj\Debug\ENTITY.csprojAssemblyReference.cache
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\ENTITY\obj\Debug\ENTITY.dll
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\ENTITY\obj\Debug\ENTITY.pdb

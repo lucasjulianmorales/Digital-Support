@@ -33,8 +33,8 @@
             this.dgvUserList = new System.Windows.Forms.DataGridView();
             this.lbUsuario = new System.Windows.Forms.Label();
             this.lbPerfil = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbDni = new System.Windows.Forms.Label();
+            this.lbApellido = new System.Windows.Forms.Label();
             this.txbUsuario = new System.Windows.Forms.TextBox();
             this.cmbPerfil = new System.Windows.Forms.ComboBox();
             this.txbApellido = new System.Windows.Forms.TextBox();
@@ -90,25 +90,25 @@
             this.lbPerfil.TabIndex = 60;
             this.lbPerfil.Text = "Perfil";
             // 
-            // label2
+            // lbDni
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(452, 416);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 15);
-            this.label2.TabIndex = 59;
-            this.label2.Text = "DNI";
+            this.lbDni.AutoSize = true;
+            this.lbDni.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDni.Location = new System.Drawing.Point(452, 416);
+            this.lbDni.Name = "lbDni";
+            this.lbDni.Size = new System.Drawing.Size(31, 15);
+            this.lbDni.TabIndex = 59;
+            this.lbDni.Text = "DNI";
             // 
-            // label1
+            // lbApellido
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(218, 416);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 15);
-            this.label1.TabIndex = 58;
-            this.label1.Text = "Apellido";
+            this.lbApellido.AutoSize = true;
+            this.lbApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbApellido.Location = new System.Drawing.Point(218, 416);
+            this.lbApellido.Name = "lbApellido";
+            this.lbApellido.Size = new System.Drawing.Size(59, 15);
+            this.lbApellido.TabIndex = 58;
+            this.lbApellido.Text = "Apellido";
             // 
             // txbUsuario
             // 
@@ -150,13 +150,14 @@
             this.Controls.Add(this.txbUsuario);
             this.Controls.Add(this.lbUsuario);
             this.Controls.Add(this.lbPerfil);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbDni);
+            this.Controls.Add(this.lbApellido);
             this.Controls.Add(this.dgvUserList);
             this.Controls.Add(this.btnListUser);
             this.Controls.Add(this.btnAddUser);
             this.Name = "frmConsultUser";
-            this.Text = "ftmConsultUser";
+            this.Text = "Usuarios - Digital Support";
+            this.Load += new System.EventHandler(this.frmConsultUser_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUserList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -170,8 +171,8 @@
         private System.Windows.Forms.DataGridView dgvUserList;
         private System.Windows.Forms.Label lbUsuario;
         private System.Windows.Forms.Label lbPerfil;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbDni;
+        private System.Windows.Forms.Label lbApellido;
         private System.Windows.Forms.TextBox txbUsuario;
         private System.Windows.Forms.ComboBox cmbPerfil;
         private System.Windows.Forms.TextBox txbApellido;
