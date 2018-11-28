@@ -8,7 +8,7 @@ namespace ENTITY
 {
     public class Orden_Trabajo
     {
-        public Guid _ID_ot{ get; set; }
+        public Guid _ID_ot{ get; set; } 
         public DateTime _Fecha_Creacion { get; set; }
         public DateTime _Fecha_Finalizacion { get; set; }
         public Prioridad _Prioridad { get; set; }

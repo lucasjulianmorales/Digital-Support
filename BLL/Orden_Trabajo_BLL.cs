@@ -10,25 +10,16 @@ namespace BLL
 {
     public static class Orden_Trabajo_BLL
     {
-        private static Orden_Trabajo ordenTrabajo;
-        private static object syncLock = new object();
+        //utilizar las clases static es un
 
+        private static Orden_Trabajo ordenTrabajo;
 
         public static Orden_Trabajo NewOrdenTrabajo()
         {
-            if (ordenTrabajo == null)
-            {
-                lock (syncLock)
-                {
-                    if (ordenTrabajo == null)
-
-                        ordenTrabajo = ;
-
-                }
-            }
+            ordenTrabajo = new Orden_Trabajo();
 
             return ordenTrabajo;
-        }
+        }       
 
     }
 }
