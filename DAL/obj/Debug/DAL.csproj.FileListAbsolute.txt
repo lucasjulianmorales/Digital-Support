@@ -33,3 +33,4 @@ D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Suppor
 D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.dll
 D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\obj\Debug\DAL.pdb
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\DAL\bin\Debug\DAL.dll.config

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Digital_Support" Class="DigitalSupportDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-B3UFG6V\SQLEXPRESS;Initial Catalog=Digital_Support;Integrated Security=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="Digital_SupportConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ORDENTRABAJO" Member="ORDENTRABAJO">
+    <Type Name="ORDENTRABAJO">
+      <Column Name="ID_ticket" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_asunto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Desc_ticket" Type="System.String" DbType="NVarChar(350)" CanBeNull="true" />
+      <Column Name="Fecha_creacion" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

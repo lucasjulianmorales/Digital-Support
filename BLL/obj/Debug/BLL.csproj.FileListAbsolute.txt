@@ -36,3 +36,13 @@ D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Suppor
 D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\obj\Debug\BLL.dll
 D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\obj\Debug\BLL.pdb
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\bin\Debug\BLL.dll
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\bin\Debug\BLL.pdb
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\bin\Debug\DAL.dll
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\bin\Debug\ENTITY.dll
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\bin\Debug\SL.dll
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\bin\Debug\DAL.pdb
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\bin\Debug\DAL.dll.config
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\bin\Debug\ENTITY.pdb
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\bin\Debug\SL.pdb
+D:\Practica Profesional\Practica Profesional 2018\Digital Support\Digital Support\BLL\obj\Debug\BLL.csproj.CopyComplete

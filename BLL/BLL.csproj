@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cotizacion_BLL.cs" />
-    <Compile Include="Orden_Trabajo_BLL.cs" />
+    <Compile Include="OrdenTrabajo_BLL.cs" />
     <Compile Include="Usuario_BLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

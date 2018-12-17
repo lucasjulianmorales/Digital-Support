@@ -28,13 +28,13 @@ namespace UI
 
         private void btnNewCotizacion_Click(object sender, EventArgs e)
         {
-
+            /*
             Cotizacion cotizacion = Cotizacion_BLL.NewCotizacion();
             cotizacion.Descripcion = txbDesc.Text;
             cotizacion.
                 
             
-
+           */     
            // cotizacion.Descripcion
             
 

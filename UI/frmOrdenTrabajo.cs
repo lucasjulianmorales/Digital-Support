@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using SL;
 using SL.Idioma;
+using ENTITY;
+using BLL;
 
 
 namespace UI
@@ -97,8 +99,23 @@ namespace UI
 
         private void btnNewOT_Click(object sender, EventArgs e)
         {
-            
+            try
+            {
+                //VALIDACIONES VISUALES... VERIFICAR QUE TODO SEA REQUERIDO...
+                int nro = Validaciones();
+
+                OrdenTrabajo ot = new OrdenTrabajo(cmbPrioridad.SelectedIndex, cmbClasificacion.SelectedIndex, DateTime.Now);
+
+                OrdenTrabajo_BLL.NewOrdenTrabajo(ot);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
+
+
     }
 
 

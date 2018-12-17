@@ -51,6 +51,10 @@
             this.aBMMaterialesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cotizacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnNewOT = new System.Windows.Forms.Button();
+            this.lblPrioridad = new System.Windows.Forms.Label();
+            this.lblClasificacion = new System.Windows.Forms.Label();
+            this.cmbClasificacion = new System.Windows.Forms.ComboBox();
+            this.cmbPrioridad = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuOT.SuspendLayout();
             this.SuspendLayout();
@@ -199,10 +203,36 @@
             this.btnNewOT.UseVisualStyleBackColor = true;
             this.btnNewOT.Click += new System.EventHandler(this.btnNewOT_Click);
             // 
+            // lblPrioridad
+            // 
+            resources.ApplyResources(this.lblPrioridad, "lblPrioridad");
+            this.lblPrioridad.Name = "lblPrioridad";
+            // 
+            // lblClasificacion
+            // 
+            resources.ApplyResources(this.lblClasificacion, "lblClasificacion");
+            this.lblClasificacion.Name = "lblClasificacion";
+            // 
+            // cmbClasificacion
+            // 
+            this.cmbClasificacion.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbClasificacion, "cmbClasificacion");
+            this.cmbClasificacion.Name = "cmbClasificacion";
+            // 
+            // cmbPrioridad
+            // 
+            this.cmbPrioridad.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbPrioridad, "cmbPrioridad");
+            this.cmbPrioridad.Name = "cmbPrioridad";
+            // 
             // frmOrdenTrabajo
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.cmbPrioridad);
+            this.Controls.Add(this.cmbClasificacion);
+            this.Controls.Add(this.lblClasificacion);
+            this.Controls.Add(this.lblPrioridad);
             this.Controls.Add(this.btnNewOT);
             this.Controls.Add(this.lbDesc);
             this.Controls.Add(this.txbDesc);
@@ -245,6 +275,10 @@
         private System.Windows.Forms.ToolStripMenuItem perfilToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cotizacionesToolStripMenuItem;
         private System.Windows.Forms.Button btnNewOT;
+        private System.Windows.Forms.Label lblPrioridad;
+        private System.Windows.Forms.Label lblClasificacion;
+        private System.Windows.Forms.ComboBox cmbClasificacion;
+        private System.Windows.Forms.ComboBox cmbPrioridad;
     }
 }
 
