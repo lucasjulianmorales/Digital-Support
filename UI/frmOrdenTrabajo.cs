@@ -21,6 +21,8 @@ namespace UI
         public frmOrdenTrabajo()
         {
             InitializeComponent();
+
+            
         }
 
         private void frmTecnico_Load(object sender, EventArgs e)

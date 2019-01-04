@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Cotizacion.cs" />
     <Compile Include="OrdenTrabajo.cs" />
+    <Compile Include="ServicioOT.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

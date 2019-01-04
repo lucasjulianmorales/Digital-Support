@@ -12,7 +12,7 @@ namespace ENTITY
         public DateTime _Fecha_Creacion { get; set; }
         public DateTime _Fecha_Finalizacion { get; set; }
         public Prioridad _Prioridad { get; set; }
-        public C
+        public 
         public string _Desc_Resolucion { get; set; }
         public string _Desc_Sactisfaccion { get; set; }
 
@@ -20,7 +20,7 @@ namespace ENTITY
         {
             _ID_ot = Guid.NewGuid();
             _Prioridad = (Prioridad)prioridad;
-            _Clasificacion = 
+            _ServiciosAplicados= 
             _Fecha_Creacion = fechaCreacion;
 
 
